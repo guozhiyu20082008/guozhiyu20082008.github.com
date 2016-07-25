@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+*{ margin:0; padding:0;}
+.box{ width:300px; height:300px; margin:100px auto; -webkit-transition:8s all ease; position:relative; -webkit-transform-style:preserve-3d; -webkit-transform:perspective(800px) rotateY(0deg) rotateX(0deg);}
+.box div{ width:100%; height:100%; text-align:center; line-height:300px; position:absolute; top:0; left:0; font-size:50px; font-weight:bold; font-family:'微软雅黑'; }
+.back{ background:rgba(255,0,0,.5); -webkit-transform: translateZ(-150px) scale(-1,1);}
+.front{ background:rgba(255,255,0,.5); -webkit-transform: translateZ(150px);}
+.left{ background:rgba(0,255,0,.5); -webkit-transform: translate(-150px,0) rotateY(-90deg);}
+.right{ background:rgba(0,0,255,.5); -webkit-transform: translate(150px,0) rotateY(90deg);}
+.up{ background:rgba(0,255,255,.5); -webkit-transform: translate(0,-150px) rotateX(90deg);}
+.down{ background:rgba(255,0,255,.5); -webkit-transform: translate(0,150px) rotateX(-90deg);}
+.box:active{ -webkit-transform:perspective(800px) rotateY(-360deg) rotateX(360deg);}
+</style>
+</head>
+
+<body>
+	<div class="box">
+		<div class="front">前面</div>
+		<div class="back">后面</div> 
+		<div class="left">左面</div>
+		<div class="right">右面</div> 
+		<div class="up">上面</div>
+		<div class="down">下面</div>    
+    </div>
+</body>
+</html>
