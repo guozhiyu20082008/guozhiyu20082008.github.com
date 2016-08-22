@@ -102,7 +102,7 @@ body{
 
 
 .menu_wrapper .start .state2{
-    background: #fff;
+    background:yellow;
     top: 100%;
     color:#666;
 }
@@ -823,7 +823,7 @@ body{
     left: 0px;
     right: 0px;
     height: 100%;
-    background: #FFF;
+    background:aqua;
     color: #666 !important;
 }
 .buttons {
@@ -847,7 +847,7 @@ body{
     left: 0px;
     right: 0px;
     height: 100%;
-    background: #B8E6AF;
+    background:yellow;
     color: #37334D;
 }
 .button2 .tex_small {
@@ -865,7 +865,7 @@ body{
     left: 0px;
     right: 0px;
     height: 100%;
-    background: #FFF;
+    background: aqua;
     color: #666 !important;
 }
 
